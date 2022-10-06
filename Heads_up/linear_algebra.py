@@ -35,4 +35,10 @@ print(torch.mv(A, x))
 B = torch.ones(4,3)
 print(torch.mm(A, B))
 
+# 范数，就是表征向量的长度
+#L2范数即是向量元素的和的平方根
+u  = torch.tensor([3.0, -4.0])
+print(torch.norm(u))
+# 矩阵的F范数：矩阵元素的平方和的平方根
+torch.norm(torch.ones((4, 9)))
 
