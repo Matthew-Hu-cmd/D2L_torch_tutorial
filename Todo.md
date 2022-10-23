@@ -15,3 +15,4 @@
 * 2022.10.23
     >分类问题！！！
     >softmax回归代码实现
+    >woc jupyter notebook怎么会这么好用啊
